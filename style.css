@@ -1,13 +1,79 @@
-h1, h2
-{
-  color: red
-}
-
 body
 {
-  font-family:sans-serif;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size:small;
+  line-height: 1.6em;
+  background-color: silver;
 }
+
+.special
+{
+  color: red;
+}
+
+h1, h2
+{
+  color: #007e7e;
+}
+
 h1
 {
-  border-bottom: 1px solid black;
+  font-size: 150%;
+}
+
+h2
+{
+  font-size: 130%;
+}
+
+p
+{
+ color: maroon;
+}
+.special
+{
+  color: red;
+}
+.main_panel
+{
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  width: 700px;
+
+  padding: 0px 20px 30px 10px;
+
+  text-align: center;
+  margin-left: 20px;
+
+  float: right;
+
+}
+
+.app
+{
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+
+  width: 100px;
+  margin: 30px;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 150px;
+
+  background-color: white;
+  background-image: url(images/popular.jpg);
+  background-repeat: no-repeat;
+  background-position: top-right;
+  
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+.navigation
+{
+  float:left;
+  width:800px;
 }
