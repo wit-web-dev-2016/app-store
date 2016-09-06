@@ -1,0 +1,13 @@
+h1, h2
+{
+  color: red
+}
+
+body
+{
+  font-family:sans-serif;
+}
+h1
+{
+  border-bottom: 1px solid black;
+}
